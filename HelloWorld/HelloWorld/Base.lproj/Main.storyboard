@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Thin</string>
+            <string>HelveticaNeue-UltraLight</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="BYZ-38-t0r" customClass="ViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Sir. Richard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5C-pR-kp7">
+                                <rect key="frame" x="16" y="20" width="343" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="QeF-gf-Aqg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fwf-sJ-LvZ">
+                                <rect key="frame" x="0.0" y="73" width="375" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="W1a-jW-Tk2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2019 Richard LLC." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVT-I6-MWn">
+                                <rect key="frame" x="0.0" y="627.5" width="375" height="19.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaz-cQ-JdT">
+                                <rect key="frame" x="0.0" y="648.5" width="375" height="18.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dwinanda-nurhanif-mujito-805011-unsplash.jpg" highlightedImage="dwinanda-nurhanif-mujito-805011-unsplash.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gcS-ru-UYl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="gcS-ru-UYl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1en-7c-bwO"/>
+                            <constraint firstItem="c5C-pR-kp7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3JJ-la-a64"/>
+                            <constraint firstItem="FVT-I6-MWn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6rv-Ce-J5u"/>
+                            <constraint firstItem="Fwf-sJ-LvZ" firstAttribute="top" secondItem="c5C-pR-kp7" secondAttribute="bottom" constant="17" id="9Yw-M4-Ybo"/>
+                            <constraint firstItem="iaz-cQ-JdT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ElA-An-Hap"/>
+                            <constraint firstItem="gcS-ru-UYl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LfH-1l-853"/>
+                            <constraint firstItem="Fwf-sJ-LvZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="X77-98-SsB"/>
+                            <constraint firstItem="c5C-pR-kp7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Yye-Cs-eEK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c5C-pR-kp7" secondAttribute="trailing" constant="16" id="cu3-FG-Jfx"/>
+                            <constraint firstItem="iaz-cQ-JdT" firstAttribute="top" secondItem="FVT-I6-MWn" secondAttribute="bottom" constant="1.5" id="efg-PR-ruA"/>
+                            <constraint firstItem="iaz-cQ-JdT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lwP-ja-UXK"/>
+                            <constraint firstItem="Fwf-sJ-LvZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="n9h-Ca-4IU"/>
+                            <constraint firstItem="gcS-ru-UYl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="oAe-GS-ZPs"/>
+                            <constraint firstItem="FVT-I6-MWn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oJ9-KI-uJT"/>
+                            <constraint firstItem="iaz-cQ-JdT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="tOi-wq-IXu"/>
+                            <constraint firstItem="gcS-ru-UYl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yO2-5a-yh2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="lbloutput" destination="c5C-pR-kp7" id="IiS-bO-lfg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3978" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dwinanda-nurhanif-mujito-805011-unsplash.jpg" width="3456" height="4320"/>
+    </resources>
+</document>
